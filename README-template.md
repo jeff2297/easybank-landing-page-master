@@ -69,9 +69,31 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+  /* 
+     use display: -ms-flexbox;
+      display: -webkit-box;
+      to make horizontal headings inline */
+    .section2-subsection2-headings {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      position: relative;
+      flex-direction: row;
+      gap: 178px;
+      top: 3rem;
+      left: -53.8rem;
+    }
+ /* use display: grid;
+      grid-template-columns: repeat(2, 1fr); to make grid with 2 columns and 3 rows */
+ .footer-middle {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      position: relative;
+      top: 22px;
+      left: 150px;
+      margin: 3.05rem;
+    }
+
 ```
 ```js
 const proudOfThisFunc = () => {
